@@ -1,0 +1,28 @@
+{
+  "name": "samune-note",
+  "version": "1.0.0",
+  "description": "Marpを使用した記事サムネイル生成ツール - サイバーパンク風デザイン",
+  "main": "src/index.js",
+  "scripts": {
+    "generate": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "marp",
+    "thumbnail",
+    "generator",
+    "cyberpunk",
+    "cli"
+  ],
+  "author": "[Your Name]",
+  "license": "MIT",
+  "dependencies": {
+    "@marp-team/marp-cli": "^3.4.0",
+    "kuroshiro": "^1.2.0",
+    "kuroshiro-analyzer-kuromoji": "^1.1.0",
+    "puppeteer": "^22.3.0"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
